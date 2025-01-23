@@ -1,0 +1,96 @@
+body{
+    margin : 0;
+    padding : 0;
+    background-color: black;
+    color : white;  
+}
+.logo{
+    width : 60px;
+    height : 60px;
+}
+h1{
+    margin : 0;
+    margin-top : 10px;
+    font-size : 40px;
+}
+ul{
+    display : flex;
+    margin : 0;
+}
+.all{
+    color : yellow;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid yellow;
+}
+li{
+    list-style: none;
+    margin : 20px;
+}
+li:hover{
+    color : yellow;
+    border-bottom: 1px solid yellow;
+}
+.box{
+    margin : 0 auto;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width : 1000px;
+    height : 100%;
+    padding : 50px 0;
+}
+.container1, .container2{
+    display : flex;
+}
+.one{
+    background-color: #463f3a;
+    background-image: url(/img/study.jpg);
+    background-size: cover;
+}
+.one span{
+    margin-left : 30px;
+}
+.two{
+    color : black;
+    background-color: #8a817c;
+    background-image: url(/img/memo.jpg);
+    background-size: cover;
+    
+}
+.three{
+    background-color: #bcb8b1;
+    background-image: url(/img/ex.jpg);
+    background-size: cover;
+}
+.four{
+    color : black;
+    background-color: #f4f3ee;
+    background-image: url(/img/recipe.jpg);
+    background-size: cover;
+}
+.five{
+    color : black;
+    background-color: #e0afa0;
+    background-image: url(/img/memo3.jpg);
+    background-size: cover;
+}
+.five span{
+    color : #bc4749;
+}
+.six{
+    /* color : black; */
+    background-color: #dad2bc;
+    background-image: url(/img/book.jpg);
+    background-size: cover;
+}
+.c{
+    border-radius: 15px;
+    padding : 10px;
+    margin : 2px;
+    width : 180px;
+    height : 270px;
+}
+div input{
+    margin : 8px 8px 8px 0;
+}
